@@ -10,6 +10,18 @@ public class laptop {
         device1.ram = 8;
         device1.price  = 45000;
 
-        System.err.println(device1.price);
+        System.out.println(device1.ram);
+
+        laptop device2 = new laptop();
+        device2.brand = "HP";
+        device2.proc = "i6";
+        device2.ram = 8;
+        device2.price  = 55000;
+
+        System.out.println(device2.proc);
+
+        laptop device3 = new laptop();
+        device3.brand = "HP";
+        System.out.println(device3.brand);
     }
 }
