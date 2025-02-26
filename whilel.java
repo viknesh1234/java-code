@@ -7,10 +7,10 @@ public class whilel {
 //       no = none.nextInt(55);
 //      System.out.println(no);
 // }
-int j=1;
-while(j<=10){
-    System.out.println(j);
-    j=j+1;
+//int j=1;
+while(true){
+    System.out.println("MV");
+   // j=j+1;
 }
     }
 }
