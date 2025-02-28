@@ -4,7 +4,7 @@ public class para {
         System.out.println(money);
         System.out.println("soap purchased");
     }
-    void chocolate(int money)
+    void chocolate(int money)//parameter function
     {
          System.out.println(money);
         System.out.println("chocolate purchased");
@@ -20,7 +20,7 @@ public class para {
         obj.soap(20);
         obj.chocolate(45);
         obj.powder(50);
-        
+
 
     }
     
