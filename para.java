@@ -15,6 +15,13 @@ public class para {
         System.out.println("powder purchased");
     }
 
-    
+    public static void main(String[] args) {
+        para obj = new para();
+        obj.soap(20);
+        obj.chocolate(45);
+        obj.powder(50);
+        
+
+    }
     
 }
