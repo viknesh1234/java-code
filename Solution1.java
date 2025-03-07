@@ -8,6 +8,7 @@ public class Solution1 {
         double d = scan.nextDouble();
         String s = scan.nextLine();
 
+
         System.out.println("String: " + s );
         System.out.println("Double: " + d);
         System.out.print("Int: " + i);
