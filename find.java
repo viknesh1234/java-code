@@ -2,7 +2,7 @@
 //- Create a class called **"Find"** with main function  
 //- Create a function called **evenodd** with integer parameter called **int num**  
 //- Inside **Main** function get integer input from user.  
-//- Pass that input to the **evenodd** function and let the function decide whether the number is even or odd.  
+- //Pass that input to the **evenodd** function and let the function decide whether the number is even or odd.  
 
 
 
