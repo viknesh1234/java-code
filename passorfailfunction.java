@@ -22,9 +22,9 @@ public class passorfailfunction {
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
-        int a = scan.nextInt();
+        int b = scan.nextInt();
         passorfailfunction obj = new passorfailfunction();
-        String result= obj.school(a); 
+        String result= obj.school(b); 
         System.out.println(result);
     }
 }
