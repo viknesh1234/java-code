@@ -3,7 +3,7 @@ public class ret1 {
     {
         int c = a+b;
 
-        return c;
+        return c;------
     }
     public static void main(String[] args) {
         ret1 obj = new ret1();
