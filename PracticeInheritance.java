@@ -1,3 +1,4 @@
+import java.util.*;
 // Base class
 class Animal {
     String name;
