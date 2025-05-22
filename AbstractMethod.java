@@ -25,8 +25,7 @@ public class AbstractMethod {
         Car c1 = new Car();
         c1.startengine();  // Output: Car engine started
         c1.stopengine();   // Output: Engine stopped
-
-        Truck t1 = new Truck();
+         Truck t1 = new Truck();
         t1.startengine();  // Output: Truck engine started
         t1.stopengine();   // Output: Engine stopped
     }
