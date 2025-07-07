@@ -1,18 +1,23 @@
 public class constructerParameterized {
 
-	int marks;
-	String name;
+	String id;
+	int acc;
+	int ph;
 	
-	constructerParameterized (int a, String b)
+	constructerParameterized (String a, int b, int c)
 	{
-	marks = a;
-	name=b;
+	id = a;
+	acc=b;
+	ph = c;
+	}
+	public String toString(){
+		return id + acc + ph;
 	}
 	public static void main(String[] args) {
-		constructerParameterized ob1 = new constructerParameterized (32, "John");
-		constructerParameterized ob2 = new constructerParameterized (45, "Mark");
-	    System.out.println(ob2.marks );
-        System.out.println(ob1.name);
+		constructerParameterized ob1 = new constructerParameterized ("abc", 123, 12345);
+		// constructerParameterized ob2 = new constructerParameterized (45, "Mark");
+	    // System.out.println(ob2.marks );
+        System.out.println(ob1);
 	}
 	
 }
